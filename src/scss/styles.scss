@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+}
+body {
+  background-image: url("../assets/images/background.jpg");
+  background-attachment: fixed;
+  color: white;
+}
+.links {
+  width: 20px;
+  height: 20px;
+}
+.item-renderer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba($color: #ffffff, $alpha: 0.65);
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 6px;
+  height: 65px;
+}
+.launch-item-details {
+  overflow: hidden;
+  width: 38%;
+  text-overflow: ellipsis;
+  height: 100%;
+}
+.launch-item.link {
+  width: 6%;
+}
+.launch-item-rocket-name {
+  vertical-align: middle;
+  width: 14%;
+  height: 100%;
+}
+.launch-item-date {
+  width: 14%;
+}
+.launch-item-rocket-type {
+  width: 13%;
+}
+.launch-item-id {
+  width: 5%;
+}
+.launch-item-picture {
+  width: 10%;
+  height: auto;
+}

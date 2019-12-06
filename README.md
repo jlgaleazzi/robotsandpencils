@@ -37,7 +37,7 @@ npm run build
 if successfully built you shoud see a message stating that the build folder is ready to be deployed.
 
 ## Start Server
-* from the root repo directory type
+from the root repo directory type
 node server/server.js
 
 if succesfully launched you should see the following messages:
@@ -57,31 +57,34 @@ a script should run and test results should display on terminal.
 Testing is done with the Mocha and Chai library
 I included 6 tests to verify that the correct data is being pulled from the database
 These are:
--- 1 Get All launches 
+* 1 Get All launches 
 verify that response is succesful
+
 verify that it returns an array with the results
+
 verify that it returns 83 records (from the seed database)
--- 2 Get only Succesfully launches
+
+* 2 Get only Succesfully launches
 verify that response is succesful
 verify that it returns an array with the results
 verify that all results have landSuccess = true
--- 3 Get only launches with Reddit
+* 3 Get only launches with Reddit
 verify that response is succesful
 verify that it returns an array with the results
 verify that all results have reddit = true
--- 4 Get only launches with reuse
+* 4 Get only launches with reuse
 verify that response is succesful
 verify that it returns an array with the results
 verify that all results have reuse = true
---  5 Get only launches with reuse and reddit
+* 5 Get only launches with reuse and reddit
 verify that response is succesful
 verify that it returns an array with the results
 verify that all results have reuse and reddit = true
---  6 Get only launches with reuse and land success
+* 6 Get only launches with reuse and land success
 verify that response is succesful
 verify that it returns an array with the results
 verify that all results have reuse and reddit = true
--- 7 Get only launches with reddit and land success
+*7 Get only launches with reddit and land success
 verify that response is succesful
 verify that it returns an array with the results
 verify that all results have reddit and landsuccess = true

@@ -9,13 +9,25 @@ the data is hosted in MongoDB Atlas cloud service.
 the backend is a Node application using express server.
 The app is running on a docker container using AWS elastic Beanstalk 
 
+## Requirements
+
+to run locally you must have Node.js v10 or higher and MongoDB
 
 ## Installation
 
--- Requires Node.js and Mongo DB 
-To install locally clone this repository on your local environment
+-- Local installation
+
+Clone this repository to your local environment
+go to your local repository
 
 
+on terminal type:  npm install
+
+open database/config.js
+replace <username> and <password> with your username and password for your mongoDB Server
+  
+# Populate the Mongo database
+run node
 
 ## Start Server
 

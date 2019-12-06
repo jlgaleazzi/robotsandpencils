@@ -1,23 +1,23 @@
 import React from "react";
 import link from "../../assets/images/link.svg";
-import placeHolder from "../../assets/images/placeholder.png";
+import ImageWithPlaceHolder from "./imagewithplaceholder";
 
 const ItemRenderer = props => {
+  const date = new Date(props.data.launchDate);
+  const options = { dateStyle: "short" };
+  const dateString = date.toLocaleDateString("US-EN", options);
   return (
     <div className="item-renderer">
-      <div className="launch-item-picture">
-        <img
-          className="badge"
-          src={props.data.badge !== null ? props.data.badge : placeHolder}
-        />
-      </div>
+      <ImageWithPlaceHolder img={props.data.badge} />
       <div className="launch-item-rocket-name">{props.data.rocketName}</div>
       <div className="launch-item-rocket-type">{props.data.rocketType}</div>
-      <div className="launch-item-date">{props.data.launchDate}</div>
+      <div className="launch-item-date">{dateString}</div>
       <div className="launch-item-details">{props.data.details}</div>
       <div className="launch-item-id">{props.data.id}</div>
       <div className="launch-item-link">
-        <img className="links" src={link} />
+        <a href={props.data.article} target="_blank">
+          <img className="links" src={link} alt="article" />
+        </a>
       </div>
     </div>
   );

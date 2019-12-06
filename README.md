@@ -58,35 +58,35 @@ Testing is done with the Mocha and Chai library
 I included 6 tests to verify that the correct data is being pulled from the database
 These are:
 * 1 Get All launches 
-verify that response is succesful
+    verify that response is succesful
 
-verify that it returns an array with the results
+    verify that it returns an array with the results
 
-verify that it returns 83 records (from the seed database)
+    verify that it returns 83 records (from the seed database)
 
 * 2 Get only Succesfully launches
-verify that response is succesful
-verify that it returns an array with the results
-verify that all results have landSuccess = true
+    verify that response is succesful\n
+    verify that it returns an array with the results
+    verify that all results have landSuccess = true
 * 3 Get only launches with Reddit
-verify that response is succesful
-verify that it returns an array with the results
-verify that all results have reddit = true
+    verify that response is succesful
+    verify that it returns an array with the results
+    verify that all results have reddit = true
 * 4 Get only launches with reuse
-verify that response is succesful
-verify that it returns an array with the results
+    verify that response is succesful
+    verify that it returns an array with the results
 verify that all results have reuse = true
 * 5 Get only launches with reuse and reddit
-verify that response is succesful
-verify that it returns an array with the results
-verify that all results have reuse and reddit = true
+    verify that response is succesful
+    verify that it returns an array with the results
+    verify that all results have reuse and reddit = true
 * 6 Get only launches with reuse and land success
-verify that response is succesful
-verify that it returns an array with the results
-verify that all results have reuse and reddit = true
+    verify that response is succesful
+    verify that it returns an array with the results
+    verify that all results have reuse and reddit = true
 *7 Get only launches with reddit and land success
-verify that response is succesful
-verify that it returns an array with the results
-verify that all results have reddit and landsuccess = true
+    verify that response is succesful
+    verify that it returns an array with the results
+    verify that all results have reddit and landsuccess = true
 
 

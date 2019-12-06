@@ -21,7 +21,7 @@ to run locally you must have Node.js v10 or higher and MongoDB
 
 -- Local installation
 
-Clone this repository to your local environment\
+Clone this repository to your local environment.\
 go to your local repository
 
 

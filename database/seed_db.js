@@ -4,7 +4,9 @@ const Process = require("process");
 const mongoose = require("mongoose");
 const seedData = require("./seed-data.json");
 const Launch = require("./launch.js");
-mongoose.connect("mongodb://localhost:27017/spacex", {
+const dbConfig = require("./config.js");
+
+mongoose.connect(dbConfig.host, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });

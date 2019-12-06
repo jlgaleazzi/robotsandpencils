@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 const Launches = require("./launch.js");
 const db = mongoose.connection;
-mongoose.connect("mongodb://localhost:27017/spacex", {
+const dbConfig = require("./config.js");
+mongoose.connect(dbConfig.host, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });

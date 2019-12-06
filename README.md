@@ -58,11 +58,9 @@ Testing is done with the Mocha and Chai library
 I included 6 tests to verify that the correct data is being pulled from the database
 These are:
 * 1 Get All launches 
-    verify that response is succesful
-
-    verify that it returns an array with the results
-
-    verify that it returns 83 records (from the seed database)
+    verify that response is succesful\
+    verify that it returns an array with the results\
+    verify that it returns 83 records (from the seed database)\
 
 * 2 Get only Succesfully launches
     verify that response is succesful\n

@@ -39,3 +39,5 @@ app.get("/launches", (req, res) => {
     }
   });
 });
+
+module.exports = app;

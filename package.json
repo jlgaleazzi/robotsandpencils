@@ -9,7 +9,8 @@
     "start": "npm-run-all -p watch-css start-js",
     "server-dev": "nodemon server/server.js",
     "build-js": "node scripts/build.js",
-    "build": "npm-run-all build-css build-js"
+    "build": "npm-run-all build-css build-js",
+    "test": "mocha --timeout 10000"
   },
   "proxy": "http://localhost:3001",
   "devDependencies": {

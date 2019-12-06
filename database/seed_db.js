@@ -3,7 +3,7 @@ const fs = require("fs");
 const Process = require("process");
 const mongoose = require("mongoose");
 const seedData = require("./seed-data.json");
-
+const Launch = require("./launch.js");
 mongoose.connect("mongodb://localhost:27017/spacex", {
   useNewUrlParser: true,
   useUnifiedTopology: true
@@ -13,20 +13,7 @@ db.on("error", console.error.bind(console, "connection error:"));
 db.once("open", function() {
   console.log("succesfully connected to mongodb");
 });
-const launchesSchema = new mongoose.Schema({
-  id: Number,
-  badge: String, //mission_patch_small
-  rocketName: String,
-  rocketType: String,
-  launchDate: Date,
-  details: String,
-  landSuccess: Boolean,
-  reused: Boolean,
-  reddit: Boolean,
-  article: String
-});
 
-const Launch = mongoose.model("Launch", launchesSchema);
 const getSeedData = async () => {
   console.log("seeding mongodb database for spacex");
   return new Promise(resolve => {

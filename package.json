@@ -12,12 +12,12 @@
     "build": "npm-run-all build-css build-js",
     "test": "mocha --timeout 10000"
   },
-  "proxy": "http://localhost:3001",
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-http": "^2.0.1",
     "mocha": "^2.5.3"
   },
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "axios": "^0.18.1",

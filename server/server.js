@@ -12,7 +12,7 @@ app.use((_, res, next) => {
   next();
 });
 
-app.use(express.static(Path.join(__dirname, "../public")));
+app.use(express.static(Path.join(__dirname, "../build")));
 app.use(express.json());
 app.listen(port, () => console.log(`Express listening on port ${port}`));
 

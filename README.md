@@ -21,28 +21,27 @@ to run locally you must have Node.js v10 or higher and MongoDB
 
 -- Local installation
 
-Clone this repository to your local environment.\
+Clone this repository to your local environment. `git clone https://github.com/jlgaleazzi/robotsandpencils.git`\
+
 go to your local repository
 
 
-on the terminal type the following command:  npm install
+on the terminal type the following command:  `npm install`
 
 open database/config.js
 replace <username> and <password> with your username and password for your mongoDB Server
   
 # Populate the Mongo database
-run node seed_db.js from the database directory
+run `node seed_db.js` from the database directory
 
 you should see a message stating that the database has been seeded succesfully
 
 # Build app
-from the root repo directory type
-npm run build
+from the root repo directory type: `npm run build`
 if successfully built you shoud see a message stating that the build folder is ready to be deployed.
 
 ## Start Server
-from the root repo directory type
-node server/server.js
+from the root repo directory type: `node server/server.js`
 
 if succesfully launched you should see the following messages:
 Express Server is listeningg on port 3001
@@ -55,7 +54,7 @@ navigate to http://localhost:3001 on you browser and you should see the SpaceX L
 #stop server
 stop the server by using ctrl-c on your terminal
 ## to run test suite
-type npm test:
+type : `npm test`
 a script should run and test results should display on terminal.
 
 Testing is done with the Mocha and Chai library

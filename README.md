@@ -25,7 +25,7 @@ Clone this repository to your local environment.\
 go to your local repository
 
 
-on terminal type:  npm install
+on the terminal type the following command:  npm install
 
 open database/config.js
 replace <username> and <password> with your username and password for your mongoDB Server

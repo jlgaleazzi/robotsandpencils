@@ -11,7 +11,7 @@ The app is running on a docker container using AWS elastic Beanstalk
 
 ps . I really enjoyed working on this assesment :-)
 
-check it live:  http://robotsandpencils-env-1.fq23erpies.us-east-1.elasticbeanstalk.com/
+Check it live:  http://robotsandpencils-env-1.fq23erpies.us-east-1.elasticbeanstalk.com/
 
 ## Requirements
 

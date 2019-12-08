@@ -44,7 +44,7 @@ if successfully built you shoud see a message stating that the build folder is r
 ## Start Server
 from the root repo directory type: `node server/server.js`
 
-if succesfully launched you should see the following messages:
+if succesfully launched you should see the following messages:\
 `Express Server is listening on port 3001
 succesfully connected to mongo database`\
 

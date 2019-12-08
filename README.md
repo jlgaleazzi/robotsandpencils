@@ -35,7 +35,7 @@ run node seed_db.js from the database directory
 
 you should see a message stating that the database has been seeded succesfully
 
-# build app
+# Build app
 from the root repo directory type
 npm run build
 if successfully built you shoud see a message stating that the build folder is ready to be deployed.

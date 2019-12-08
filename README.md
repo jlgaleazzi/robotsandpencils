@@ -38,15 +38,15 @@ run `node seed_db.js` from the database directory
 you should see a message stating that the database has been seeded succesfully
 
 # Build app
-from the root repo directory type: `npm run build`
+from the root repo directory type: `npm run build`\
 if successfully built you shoud see a message stating that the build folder is ready to be deployed.
 
 ## Start Server
 from the root repo directory type: `node server/server.js`
 
 if succesfully launched you should see the following messages:
-Express Server is listeningg on port 3001
-succesfully connected to mongo database
+`Express Server is listening on port 3001
+succesfully connected to mongo database`\
 
 navigate to http://localhost:3001 on you browser and you should see the SpaceX Launches app.
 

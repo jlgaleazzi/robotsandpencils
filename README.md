@@ -21,12 +21,11 @@ to run locally you must have Node.js v10 or higher and MongoDB
 
 -- Local installation
 
-Clone this repository to your local environment. `git clone https://github.com/jlgaleazzi/robotsandpencils.git`\
+Clone the repo: `git clone https://github.com/jlgaleazzi/robotsandpencils.git`
 
 go to your local repository
 
-
-on the terminal type the following command:  `npm install`
+Install with npm:  `npm install`
 
 open database/config.js
 replace <username> and <password> with your username and password for your mongoDB Server

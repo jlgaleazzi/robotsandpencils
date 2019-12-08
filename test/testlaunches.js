@@ -1,7 +1,7 @@
 process.env.NODE_ENV = "test";
 
 const mongoose = require("mongoose");
-const Launches = require("../database/launch.js");
+const Launches = require("../database/models/launch.js");
 const chai = require("chai");
 const chaiHttp = require("chai-http");
 const server = require("../server/server.js");

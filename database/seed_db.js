@@ -3,7 +3,7 @@ const fs = require("fs");
 const Process = require("process");
 const mongoose = require("mongoose");
 const seedData = require("./seed-data.json");
-const Launch = require("./launch.js");
+const Launch = require("./models/launch.js");
 const dbConfig = require("./config.js");
 
 mongoose.connect(dbConfig.host, {

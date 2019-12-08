@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Launches = require("./launch.js");
+const Launches = require("./models/launch.js");
 const db = mongoose.connection;
 const dbConfig = require("./config.js");
 mongoose.connect(dbConfig.host, {

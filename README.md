@@ -29,7 +29,9 @@ Install with npm:  `npm install`
 
 open database/config.js
 replace <username> and <password> with your username and password for your mongoDB Server
-  
+` module.exports = {
+  host: "mongodb+srv://<username>:<password>@mongodb://localhost:27017/spacex"
+};`
 # Populate the Mongo database
 run `node seed_db.js` from the database directory
 

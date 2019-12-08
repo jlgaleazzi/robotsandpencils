@@ -17,7 +17,7 @@ check it live:  http://robotsandpencils-env-1.fq23erpies.us-east-1.elasticbeanst
 
 to run locally you must have Node.js v10 or higher and MongoDB
 
-## Installation
+# Installation
 
 -- Local installation
 

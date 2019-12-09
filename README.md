@@ -58,7 +58,7 @@ stop the server by using ctrl-c on your terminal
 type : `npm test`
 a script should run and test results should display on terminal.
 
-Testing is done with the Mocha and Chai library
+Testing is done with the Mocha and Chai library\
 I included 6 tests to verify that the correct data is being pulled from the database
 These are:
 * 1 Get All launches 

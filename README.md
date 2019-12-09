@@ -55,7 +55,7 @@ navigate to http://localhost:3001 on you browser and you should see the SpaceX L
 ### stop server
 if server is running stop it by using ctrl-c on your terminal
 ## to run test suite
-type : `npm test`
+type : `npm test`\
 a script should run and test results should display on terminal.
 
 Testing is done with the Mocha and Chai library\

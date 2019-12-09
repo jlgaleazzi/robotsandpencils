@@ -52,7 +52,7 @@ navigate to http://localhost:3001 on you browser and you should see the SpaceX L
 
 # Testing
 
-## stop server\
+### stop server
 if server is running stop it by using ctrl-c on your terminal
 ## to run test suite
 type : `npm test`

@@ -15,7 +15,7 @@ Check it live:  http://robotsandpencils-env-1.fq23erpies.us-east-1.elasticbeanst
 
 ## Requirements
 
-to run locally you must have Node.js v10 or higher and MongoDB
+to run locally you must have [Node.js](https://nodejs.org/en/) v10 or higher and [MongoDB](https://www.mongodb.com/)
 
 # Installation
 
@@ -25,7 +25,7 @@ Clone the repo: `git clone https://github.com/jlgaleazzi/robotsandpencils.git`
 
 go to your local repository
 
-Install with npm:  `npm install`
+Install with [npm](https://www.npmjs.com/):  `npm install`
 
 open database/config.js
 replace <username> and <password> in the following line with your username and password for your mongoDB Server\

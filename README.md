@@ -84,7 +84,7 @@ These are:
 * 6 Get only launches with reuse and land success\
     verify that response is succesful\
     verify that it returns an array with the results\
-    verify that all results have reuse and reddit = true
+    verify that all results have reuse and reddit = true\
 *7 Get only launches with reddit and land success\
     verify that response is succesful\
     verify that it returns an array with the results\

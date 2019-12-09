@@ -13,7 +13,7 @@ ps . I really enjoyed working on this assesment :-)
 
 Check it live:  http://robotsandpencils-env-1.fq23erpies.us-east-1.elasticbeanstalk.com/
 
-## Requirements
+# Requirements
 
 to run locally you must have [Node.js](https://nodejs.org/en/) v10 or higher and [MongoDB](https://www.mongodb.com/)
 

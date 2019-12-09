@@ -28,7 +28,7 @@ go to your local repository
 Install with [npm](https://www.npmjs.com/):  `npm install`
 
 open database/config.js
-replace <username> and <password> in the following line with your username and password for your mongoDB Server\
+replace `<username> and <password>` in the following line with your username and password for your mongoDB Server\
 ` module.exports = {
   host: "mongodb+srv://yourusername:yourpassword@mongodb://localhost:27017/spacex"
 };`

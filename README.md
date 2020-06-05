@@ -1,17 +1,15 @@
-# R&P Frontend Assessment - React
+# Space X - React Front End, Node/MongoDB (MERN) 
 
 A simple single page app that retrieves displays data related to the SpaceX launches
 User can choose to filter data by Landing Success, Reused rockets(stages) and Reddit
 User refreshes the page manually by clicking on a refresh icon.
 
 Front End was built utilizing the React Library.
-the data is hosted in MongoDB Atlas cloud service. 
+Tha database can be seeded with the included json file. 
+the data can be hosted in MongoDB Atlas cloud service or with a local MongoDB installation
 the backend is a Node application using express server.
-The app is running on a docker container using AWS elastic Beanstalk 
 
-ps . I really enjoyed working on this assesment :-)
 
-Check it live:  http://robotsandpencils-env-1.fq23erpies.us-east-1.elasticbeanstalk.com/
 
 # Requirements
 
@@ -21,7 +19,7 @@ to run locally you must have [Node.js](https://nodejs.org/en/) v10 or higher and
 
 -- Local installation
 
-Clone the repo: `git clone https://github.com/jlgaleazzi/robotsandpencils.git`
+Clone the repo: `git clone https://github.com/jlgaleazzi/spacex.git`
 
 go to your local repository
 
